@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Python niwa april2015 by nicolasfauchereau</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Python niwa april2015</h1>
+      <h2 class="project-tagline">NIWA Scientific Python tutorial, April 2015, Wellington, New Zealand</h2>
+      <a href="https://github.com/nicolasfauchereau/Python_NIWA_April2015" class="btn">View on GitHub</a>
+      <a href="https://github.com/nicolasfauchereau/Python_NIWA_April2015/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/nicolasfauchereau/Python_NIWA_April2015/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="python-for-data-analysis-and-visualisation" class="anchor" href="#python-for-data-analysis-and-visualisation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Python for Data Analysis and Visualisation</h1>
+
+<p><a href="http://www.niwa.co.nz">NIWA</a>, Wellington, Wednesday 22 and Thursday 23 April 2015</p>
+
+<p>Contact:</p>
+
+<p>Nicolas Fauchereau</p>
+
+<ul>
+<li><a href="mailto:Nicolas.Fauchereau@gmail.com">@gmail</a></li>
+<li><a href="mailto:Nicolas.Fauchereau@niwa.co.nz">@niwa</a></li>
+</ul>
+
+<hr size="5">
+
+<h3>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of contents</h3>
+
+<ul>
+<li><a href="#the-anaconda-python-distribution">The Anaconda python distribution</a></li>
+<li>
+<a href="#installation-of-additional-libraries">Installation of Some additional libraries</a>
+
+<ul>
+<li><a href="#basemap">Basemap</a></li>
+<li><a href="#bokeh">Bokeh</a></li>
+<li><a href="#seaborn">Seaborn</a></li>
+<li><a href="#mplD3">mplD3</a></li>
+<li><a href="#bearcart">bearcart</a></li>
+<li><a href="#folium">folium</a></li>
+</ul>
+</li>
+<li><a href="#running-the-ipython-notebooks">Running the IPython notebooks</a></li>
+<li><a href="#troubleshooting">Troubleshooting</a></li>
+</ul>
+
+<hr size="5">
+
+<h2>
+<a id="the-anaconda-python-distribution" class="anchor" href="#the-anaconda-python-distribution" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Anaconda python distribution</h2>
+
+<p>For this tutorial, I <strong>strongly</strong> recommend installing the <strong>Anaconda Python distribution</strong>. It is a completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing. It includes the python interpreter itself, the python standard library as well as a set of packages exposing data structures and methods for data manipulation and scientific computing and visualization. In particular it provides <a href="http://www.numpy.org/">Numpy</a>, <a href="http://www.scipy.org/">Scipy</a>, <a href="http://pandas.pydata.org/">Pandas</a>, <a href="http://matplotlib.org/">Matplotlib</a>, <a href="http://scikit-learn.org/stable/">scikit-learn</a> and <a href="http://statsmodels.sourceforge.net/">statmodels</a>, i.e. all the main packages we will be using during the tutorial. The full list of packages is available at:</p>
+
+<p><a href="http://docs.continuum.io/anaconda/pkgs.html">http://docs.continuum.io/anaconda/pkgs.html</a></p>
+
+<p>The Anaconda python distribution must be downloaded from:</p>
+
+<p><a href="http://continuum.io/downloads">http://continuum.io/downloads</a></p>
+
+<p>For your platform.</p>
+
+<p>Once you have installed Anaconda, you can update to the latest compatible versions of all the pre-installed packages by running:</p>
+
+<pre><code>$ conda update conda
+</code></pre>
+
+<p>Then</p>
+
+<pre><code>$ conda update anaconda
+</code></pre>
+
+<p>In a terminal.</p>
+
+<p>You also need to install <a href="https://github.com/pypa/pip">pip</a> to install packages from the <a href="http://pypi.python.org/pypi">Python Package Index</a>.</p>
+
+<pre><code>$ conda install pip
+</code></pre>
+
+<h2>
+<a id="installation-of-additional-libraries" class="anchor" href="#installation-of-additional-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation of additional libraries</h2>
+
+<h3>
+<a id="basemap" class="anchor" href="#basemap" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basemap</h3>
+
+<p><strong>Basemap</strong> is a graphic library for plotting (static, publication quality) geographical maps (see <a href="http://matplotlib.org/basemap/">http://matplotlib.org/basemap/</a>). <strong>Basemap</strong> is available directly in <strong>Anaconda</strong> using the conda package manager, install with:</p>
+
+<pre><code>$ conda install basemap
+</code></pre>
+
+<h3>
+<a id="bokeh" class="anchor" href="#bokeh" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bokeh</h3>
+
+<p><a href="">Bokeh</a> is a new interactive plotting library developed by the team behind <strong>anaconda</strong>: it is thus installable with conda (if not already installed):</p>
+
+<pre><code>$ conda install bokeh
+</code></pre>
+
+<h3>
+<a id="seaborn" class="anchor" href="#seaborn" aria-hidden="true"><span class="octicon octicon-link"></span></a>Seaborn</h3>
+
+<p><a href="http://web.stanford.edu/%7Emwaskom/software/seaborn/">seaborn</a> is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. You should be able to install it with <code>conda</code> as well:</p>
+
+<pre><code>$ conda install seaborn
+</code></pre>
+
+<h3>
+<a id="mpld3" class="anchor" href="#mpld3" aria-hidden="true"><span class="octicon octicon-link"></span></a>mplD3</h3>
+
+<p><a href="http://mpld3.github.io/">mplD3</a> aims at <em>bringing matplotlib to the browser</em>. It has been developed by Jake VanDerPlas. It is also by <code>pip</code>:</p>
+
+<pre><code>$ pip install mpld3
+</code></pre>
+
+<h3>
+<a id="bearcart" class="anchor" href="#bearcart" aria-hidden="true"><span class="octicon octicon-link"></span></a>bearcart</h3>
+
+<p><a href="https://github.com/wrobstory/bearcart">bearcart</a> has been developed by <a href="http://wrobstory.github.io/">Rob Story</a> and provides an interface to the rickshaw JavaScript library. It is also installable via <code>pip</code>:</p>
+
+<pre><code>$ pip install bearcart
+</code></pre>
+
+<h3>
+<a id="folium" class="anchor" href="#folium" aria-hidden="true"><span class="octicon octicon-link"></span></a>folium</h3>
+
+<p><a href="https://github.com/wrobstory/folium">folium</a>  has been also been developed by <a href="http://wrobstory.github.io/">Rob Story</a> to provide an interface to the <a href="http://leafletjs.com/">leaflet.js</a> JavaScript mapping library. Install with:</p>
+
+<pre><code>$ pip install folium
+</code></pre>
+
+<hr size="5">
+
+<h2>
+<a id="running-the-ipython-notebooks" class="anchor" href="#running-the-ipython-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running the IPython notebooks</h2>
+
+<p>The material of the tutorial is in the form of <a href="http://ipython.org/notebook.html">IPython notebooks</a>. In a nutshell an IPython notebook is a web-based (i.e. running in the browser) interactive computational environment where you can combine Python code execution, text, mathematics, plots and rich media into a single document, which makes it an ideal medium for teaching and exploring code.</p>
+
+<p>After uncompressing the archive of the repo (or after cloning it with <code>git</code>), navigate to the corresponding directory (containing the <code>*.ipynb</code> files) and type:</p>
+
+<pre><code>$ ipython notebook
+</code></pre>
+
+<p>That should bring up the IPython notebook dashboard, you should be ready to go !</p>
+
+<p>You should see in particular a <code>test.ipynb</code> notebook: please run it to make sure all the necessary libraries have been installed correctly. If you followed the instructions above (install the <a href="http://continuum.io/downloads">anaconda python distribution</a>) it should be fine, this test notebook is mostly intended for those who have a <em>custom</em> python installation.</p>
+
+<h2>
+<a id="troubleshooting" class="anchor" href="#troubleshooting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Troubleshooting</h2>
+
+<p>You might run into some problems installing additional libraries via <code>conda</code> or <code>pip</code> and / or running the IPython notebooks, especially on Windows machines behind a proxy, here are a few solutions that may work:</p>
+
+<p><strong>1. Proxy settings for conda:</strong></p>
+
+<p>create a <code>.condarc</code> file (the '.' is important) in your HOME directory (on windows it should be <code>C:\Users\YOU</code>) and add the following lines:</p>
+
+<pre><code>proxy_servers:
+    http: http://url:port
+    https: http://url:port
+</code></pre>
+
+<p><strong>2. specify proxy when using pip</strong></p>
+
+<p>If you are running into issues installing libraries via pip, try specifying the proxy to use at the command line, e.g.</p>
+
+<pre><code>pip install --proxy=http://url:port bearcart
+</code></pre>
+
+<p><strong>3. Set-up system-wide proxy settings</strong></p>
+
+<ul>
+<li>On Macs: in your <code>${HOME}/.bash_profile</code>, insert these lines</li>
+</ul>
+
+<pre><code>export http_proxy=http://url:port
+export https_proxy=http://url:port
+
+</code></pre>
+
+<ul>
+<li><p>On Linux machines, do the same as above in your <code>${HOME}/.bashrc</code></p></li>
+<li>
+<p>On Windows machines:</p>
+
+<ul>
+<li>As an administrator go to <code>Control Panel | System | Advanced Systems Settings | Advanced Tab | Environment Variables | System Variables | New</code> and set</li>
+</ul>
+
+<pre><code>HTTP_PROXY=http://url:port/
+HTTPS_PROXY=https://url:port/
+</code></pre>
+
+<ul>
+<li>You can also do that in a command window by typing (the <code>$</code> represents the prompt)</li>
+</ul>
+
+<pre><code>$ SET HTTP_PROXY=http://url:port/
+$ SET HTTPS_PROXY=http://url:port/
+</code></pre>
+</li>
+</ul>
+
+<p><strong>4. use Firefox instead of internet explorer to open the notebooks</strong></p>
+
+<p>The IPython notebook is an interactive web-based 'notebook', where executable python code can be weaved with rich comments, graphic outputs etc, which make it ideal for presenting interactive tutorials. When (in a command prompt) you navigate to the directory where you have downloaded the notebooks and type (the $ sign represent the prompt):</p>
+
+<pre><code>  $ ipython notebook
+</code></pre>
+
+<p>a 'dashboard' with the list of notebooks should come up in your browser ... now if you are on windows, chances are that your default browser is Internet Explorer, which is generally bad news. If you encounter problems (blank page, notebooks not loading, kernel interruptions etc), it's probably because of Internet Explorer. What I suggest is that you download Firefox for windows and make it the default browser to open IPython notebooks. To do that you need (once firefox is installed) to do the following :</p>
+
+<p>i) in a command prompt type (again $ is the prompt) type:</p>
+
+<pre><code>  $ ipython create profile default
+</code></pre>
+
+<p>it should create a bunch of configuration files in the following directory:</p>
+
+<pre><code>  C:\Users\YOU\.ipython\profile_default
+</code></pre>
+
+<p>go and edit the <code>ipython_notebook_config.py</code> file</p>
+
+<p>search for the line</p>
+
+<pre><code>  #c.NotebookApp.browser =''
+</code></pre>
+
+<p>and replace it by:</p>
+
+<pre><code>  import webbrowser
+  webbrowser.register('firefox', None, webbrowser.GenericBrowser('C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe'))
+  c.NotebookApp.browser = 'firefox'
+</code></pre>
+
+<p><strong>5. Specify localhost when calling the IPython notebook</strong></p>
+
+<p>On some configurations, you might also need to call:</p>
+
+<pre><code>$ ipython notebook --ip=127.0.0.1
+</code></pre>
+
+<p>To specify that the browser should connect to <em>localhost</em></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/nicolasfauchereau/Python_NIWA_April2015">Python niwa april2015</a> is maintained by <a href="https://github.com/nicolasfauchereau">nicolasfauchereau</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
+
