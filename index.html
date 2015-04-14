@@ -252,6 +252,32 @@ $ SET HTTPS_PROXY=http://url:port/
 
 <p>To specify that the browser should connect to <em>localhost</em></p>
 
+<p><strong>6. Clear the cache</strong></p>
+
+<p>If you are still running into issues (notably dashboard or IPython notebook not displaying correctly), try clearing the cache of your browser</p>
+
+<p>**7. Use an <code>incognito</code> window</p>
+
+<p>If all else fails (!), one thing that has been reported working is:</p>
+
+<ul>
+<li>launch the <code>ipython notebook</code> in no-browser mode:</li>
+</ul>
+
+<pre><code>ipython notebook --no-browser
+</code></pre>
+
+<p>You should see an output in the terminal looking like:</p>
+
+<pre><code>...
+The IPython Notebook is running at: http://localhost:8888/
+...
+</code></pre>
+
+<p>Note that the URL and port could be different in your case.</p>
+
+<p>Open an <code>incognito</code> window from your browser and copy the URL (<code>http://localhost:8888/</code>) in the address bar</p>
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation">Python for data analysis and visualisation</a> is maintained by <a href="https://github.com/nicolasfauchereau">nicolasfauchereau</a>.</span>
 
