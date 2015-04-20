@@ -123,7 +123,7 @@ $ ipython notebook
 
 That should bring up the IPython notebook dashboard (looking as below), you should be ready to go !
 
-![](https://github.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/blob/master/session_1/notebooks/images/ipython_dashboard.png)
+![](http://nbviewer.ipython.org/github/nicolasfauchereau/Python-for-data-analysis-and-visualisation/blob/master/session_1/notebooks/images/ipython_dashboard.png)
 
 You should see in particular a ```test.ipynb``` notebook: please run it to make sure all the necessary libraries have been installed correctly. If you followed the instructions above (install the [anaconda python distribution](http://continuum.io/downloads)) it should be fine, this test notebook is mostly intended for those who have a *custom* python installation.
 
