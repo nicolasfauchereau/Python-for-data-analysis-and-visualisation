@@ -120,7 +120,17 @@ $ pip install folium
 
 ### xray 
 
-[xray](https://github.com/xray/xray) is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. 
+[xray](https://github.com/xray/xray) is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. It can be installed via pip: 
+
+```
+$ pip install xray
+``` 
+
+or (to get the latest version from github) 
+
+```
+$ pip install https://github.com/xray/xray/archive/master.zip
+```
 
 ## Running the IPython notebooks
 
