@@ -92,6 +92,14 @@
 <a id="installation-of-additional-libraries" class="anchor" href="#installation-of-additional-libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation of additional libraries</h2>
 
 <h3>
+<a id="netcdf4" class="anchor" href="#netcdf4" aria-hidden="true"><span class="octicon octicon-link"></span></a>netcdf4</h3>
+
+<p><a href="https://github.com/Unidata/netcdf4-python">netcdf4</a> allows you to read and write netcdf files (version 3 and 4 supported), install it by: </p>
+
+<pre><code>$ conda install netcdf4
+</code></pre>
+
+<h3>
 <a id="basemap" class="anchor" href="#basemap" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basemap</h3>
 
 <p><strong>Basemap</strong> is a graphic library for plotting (static, publication quality) geographical maps (see <a href="http://matplotlib.org/basemap/">http://matplotlib.org/basemap/</a>). <strong>Basemap</strong> is available directly in <strong>Anaconda</strong> using the conda package manager, install with:</p>
@@ -141,12 +149,25 @@
 
 <hr size="5">
 
+<h3>
+<a id="xray" class="anchor" href="#xray" aria-hidden="true"><span class="octicon octicon-link"></span></a>xray</h3>
+
+<p><a href="https://github.com/xray/xray">xray</a> is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. It can be installed via pip: </p>
+
+<pre><code>$ pip install xray
+</code></pre>
+
+<p>or (to get the latest version from github) </p>
+
+<pre><code>$ pip install https://github.com/xray/xray/archive/master.zip
+</code></pre>
+
 <h2>
 <a id="running-the-ipython-notebooks" class="anchor" href="#running-the-ipython-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running the IPython notebooks</h2>
 
 <p>The material of the tutorial is in the form of <a href="http://ipython.org/notebook.html">IPython notebooks</a>. In a nutshell an IPython notebook is a web-based (i.e. running in the browser) interactive computational environment where you can combine Python code execution, text, mathematics, plots and rich media into a single document, which makes it an ideal medium for teaching and exploring code.</p>
 
-<p>After uncompressing the archive of the repo (or after cloning it with <code>git</code>), navigate to the corresponding directory (containing the <code>*.ipynb</code> files) and type:</p>
+<p>After uncompressing the archive of the repo (or after cloning it with <code>git</code>), navigate to the corresponding directory (containing the <code>*.ipynb</code> files, e.g. <code>session_1/notebooks</code>) and type:</p>
 
 <pre><code>$ ipython notebook
 </code></pre>
