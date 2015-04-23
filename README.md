@@ -60,6 +60,14 @@ $ conda install pip
 
 ## Installation of additional libraries
 
+### netcdf4
+
+**netcdf4** allows you to read and write netcdf files (version 3 and 4 supported), install it by: 
+
+```
+$ conda install netcdf4
+```
+
 ### Basemap
 
 **Basemap** is a graphic library for plotting (static, publication quality) geographical maps (see [http://matplotlib.org/basemap/](http://matplotlib.org/basemap/)). **Basemap** is available directly in **Anaconda** using the conda package manager, install with:
@@ -109,6 +117,10 @@ $ pip install folium
 ```
 
 <hr size=5>
+
+### xray 
+
+[xray](https://github.com/xray/xray) is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. 
 
 ## Running the IPython notebooks
 
