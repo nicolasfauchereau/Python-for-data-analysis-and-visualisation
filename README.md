@@ -62,7 +62,7 @@ $ conda install pip
 
 ### netcdf4
 
-**netcdf4** allows you to read and write netcdf files (version 3 and 4 supported), install it by: 
+[netcdf4](https://github.com/Unidata/netcdf4-python) allows you to read and write netcdf files (version 3 and 4 supported), install it by: 
 
 ```
 $ conda install netcdf4
