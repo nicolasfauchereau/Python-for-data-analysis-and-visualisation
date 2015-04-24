@@ -283,7 +283,7 @@ Open an `incognito` window from your browser and copy the URL (`http://localhost
 + [Ipython notebook
   overview](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/IPython_notebook.html)
 
-+ [intro the Python language](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/introduction_python.html)
++ [Python language basics](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/introduction_python.html)
 
 + [Numpy](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/Numpy.html)
 
