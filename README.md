@@ -295,6 +295,8 @@ Open an `incognito` window from your browser and copy the URL (`http://localhost
 
 **SESSION 2**
 
++ [A brief intro to the IPython notebook widgets](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/IPython_widgets.html)
+
 + [Interactive plots in the browser](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/Interactive_plots.html)
 
 + [managing your packages and environments with conda](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/conda.html)
