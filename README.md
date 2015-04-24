@@ -301,7 +301,7 @@ Open an `incognito` window from your browser and copy the URL (`http://localhost
 
 + [xray](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/xray.html)
 
-+ [brief introto scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/sklearn.html)
++ [brief intro to scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/sklearn.html)
 
 + [EOF decomposition of Pacific SSTs with scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/sklearn_EOF_decomposition.html)
 
