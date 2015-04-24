@@ -23,6 +23,7 @@ Nicolas Fauchereau
   - [folium](#folium)
 - [Running the IPython notebooks](#running-the-ipython-notebooks)
 - [Troubleshooting](#troubleshooting)
+- [Rendered notebooks](#rendered-notebooks)
 
 <hr size=5>
 
@@ -272,3 +273,8 @@ The IPython Notebook is running at: http://localhost:8888/
 Note that the URL and port could be different in your case.
 
 Open an `incognito` window from your browser and copy the URL (`http://localhost:8888/`) in the address bar
+
+## Rendered notebooks 
+
++ [Ipython notebook
+  overview](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/IPython_notebook.html)
