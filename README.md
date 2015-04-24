@@ -280,7 +280,7 @@ Open an `incognito` window from your browser and copy the URL (`http://localhost
 
 + [ressources and acknowledgments](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/ressources.html)
 
-+ [Ipython notebook
++ [IPython notebook
   overview](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/IPython_notebook.html)
 
 + [Python language basics](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/introduction_python.html)
