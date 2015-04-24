@@ -292,3 +292,17 @@ Open an `incognito` window from your browser and copy the URL (`http://localhost
 + [Matplotlib and Basemap](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/Matplotlib_Basemap.html)
 
 + [Pandas](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_1/notebooks/Pandas.html)
+
+**SESSION 2**
+
++ [Interactive plots in the browser](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/Interactive_plots.html)
+
++ [managing your packages and environments with conda](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/conda.html)
+
++ [xray](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/xray.html)
+
++ [brief introto scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/sklearn.html)
+
++ [EOF decomposition of Pacific SSTs with scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/sklearn_EOF_decomposition.html)
+
++ [k-means clustering of Pacific SSTs with scikit-learn](https://cdn.rawgit.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation/master/session_2/notebooks/sklearn_kmeans.html)
