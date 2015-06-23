@@ -63,7 +63,7 @@ $ conda install pip
 
 ### netcdf4
 
-[netcdf4](https://github.com/Unidata/netcdf4-python) allows you to read and write netcdf files (version 3 and 4 supported), install it by: 
+[netcdf4](https://github.com/Unidata/netcdf4-python) allows you to read and write netcdf files (version 3 and 4 supported), install it by:
 
 ```
 $ conda install netcdf4
@@ -119,15 +119,15 @@ $ pip install folium
 
 <hr size=5>
 
-### xray 
+### xray
 
-[xray](https://github.com/xray/xray) is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. It can be installed via pip: 
+[xray](https://github.com/xray/xray) is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. The latest version (0.5.1 at the time of this writing [24 June 2015]) can now be installed via `conda`:
 
 ```
-$ pip install xray
-``` 
+$ conda install xray
+```
 
-or (to get the latest version from github) 
+or (to get the latest version from github)
 
 ```
 $ pip install https://github.com/xray/xray/archive/master.zip
@@ -274,7 +274,7 @@ Note that the URL and port could be different in your case.
 
 Open an `incognito` window from your browser and copy the URL (`http://localhost:8888/`) in the address bar
 
-## Rendered notebooks 
+## Rendered notebooks
 
 **SESSION 1**
 
