@@ -33,7 +33,7 @@ For this tutorial, I **strongly** recommend installing the **Anaconda Python dis
 
 [http://docs.continuum.io/anaconda/pkgs.html](http://docs.continuum.io/anaconda/pkgs.html)
 
-The Anaconda python distribution (**NOTE**: select the Python 2.7 version, NOT the Python 3.4) must be downloaded from:
+The Anaconda python distribution (**NOTE**: select the version shippint with Python 3.5, as of 8 April 2016, Anaconda version 4.0) must be downloaded from:
 
 [http://continuum.io/downloads](http://continuum.io/downloads)
 
