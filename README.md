@@ -119,32 +119,26 @@ $ pip install folium
 
 <hr size=5>
 
-### xray
+### xarray
 
-[xray](https://github.com/xray/xray) is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. The latest version (0.5.1 at the time of this writing [24 June 2015]) can now be installed via `conda`:
-
-```
-$ conda install xray
-```
-
-or (to get the latest version from github)
+[xarray](https://github.com/xarray/xarray) (previously *xray*) is a library aimed at bringing the power of Pandas to multidimensional labelled arrays, such as the ones usually associated with geophysical quantities varying along time and space dimensions (e.g. [time, latitudes, longitudes], [time, level, latitudes, longitudes], etc) and supports reading and writing netcdf files. It can be installed via `conda`:
 
 ```
-$ pip install https://github.com/xray/xray/archive/master.zip
+$ conda install xarray
 ```
 
-## Running the IPython notebooks
+## Running the Jupyter notebooks
 
-The material of the tutorial is in the form of [IPython notebooks](http://ipython.org/notebook.html). In a nutshell an IPython notebook is a web-based (i.e. running in the browser) interactive computational environment where you can combine Python code execution, text, mathematics, plots and rich media into a single document, which makes it an ideal medium for teaching and exploring code.
+The material of the tutorial is in the form of [Jupyter notebooks](http://ipython.org/notebook.html). In a nutshell a Jupyter notebook is a web-based (i.e. running in the browser) interactive computational environment where you can combine Python code execution, text, mathematics, plots and rich media into a single document, which makes it an ideal medium for teaching and exploring code.
 
 
 After uncompressing the archive of the repo (or after cloning it with ```git```), navigate to the corresponding directory (containing the ```*.ipynb``` files, e.g. `session_1/notebooks`) and type:
 
 ```
-$ ipython notebook
+$ jupyter notebook
 ```
 
-That should bring up the IPython notebook dashboard (looking as below), you should be ready to go !
+That should bring up the Jupyter notebook dashboard (looking as below), you should be ready to go !
 
 ![](http://nbviewer.ipython.org/github/nicolasfauchereau/Python-for-data-analysis-and-visualisation/blob/master/session_1/notebooks/images/ipython_dashboard.png)
 
